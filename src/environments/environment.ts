@@ -1,8 +1,8 @@
 export const environment = {
   keycloak: {
-    url: "http://host.docker.internal:8070",
+    url: "https://keycloak.sanjay-thangaraj.me",
     realm: "quick-chat",
     clientId: "quick-chat"
   },
-  API_URL: "http://host.docker.internal:8080/api",
+  API_URL: "https://quick-chat-backend.sanjay-thangaraj.me/api",
 };
